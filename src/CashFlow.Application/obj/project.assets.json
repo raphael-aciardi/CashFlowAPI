@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CashFlow.Comunication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Comunication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Comunication.dll": {}
+        }
+      },
+      "CashFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Domain.dll": {}
+        }
+      },
+      "CashFlow.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Exception.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CashFlow.Comunication/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Comunication/CashFlow.Comunication.csproj",
+      "msbuildProject": "../CashFlow.Comunication/CashFlow.Comunication.csproj"
+    },
+    "CashFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Domain/CashFlow.Domain.csproj",
+      "msbuildProject": "../CashFlow.Domain/CashFlow.Domain.csproj"
+    },
+    "CashFlow.Exception/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Exception/CashFlow.Exception.csproj",
+      "msbuildProject": "../CashFlow.Exception/CashFlow.Exception.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CashFlow.Comunication >= 1.0.0",
+      "CashFlow.Domain >= 1.0.0",
+      "CashFlow.Exception >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\compu\\.nuget\\packages\\": {}
@@ -34,7 +85,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
+              "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj"
+            },
+            "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+              "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+            },
+            "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+              "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
