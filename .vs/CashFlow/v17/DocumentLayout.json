@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA3D0D25-62B2-4DBD-B3CF-B5418F40FF91}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\users\\compu\\source\\repos\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3D0D25-62B2-4DBD-B3CF-B5418F40FF91}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4147C4F3-E5B3-458A-BB29-E74FF897AC58}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\users\\compu\\source\\repos\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4147C4F3-E5B3-458A-BB29-E74FF897AC58}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626A6288-F9D0-4F15-8875-3D6E1D66887C}|src\\CashFlow.Comunication\\CashFlow.Comunication.csproj|c:\\users\\compu\\source\\repos\\cashflow\\src\\cashflow.comunication\\responses\\responseregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626A6288-F9D0-4F15-8875-3D6E1D66887C}|src\\CashFlow.Comunication\\CashFlow.Comunication.csproj|solutionrelative:src\\cashflow.comunication\\responses\\responseregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseRegisterExpenseJson.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "ToolTip": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "RelativeToolTip": "src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:08:53.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterExpenseUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "ToolTip": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:06:38.428Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
               "ToolTip": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
               "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T18:45:48.31Z",
               "EditorCaption": ""

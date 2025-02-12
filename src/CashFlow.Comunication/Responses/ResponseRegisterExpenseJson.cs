@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CashFlow.Comunication.Responses;
-internal class ResponseRegisterExpenseJson
+﻿namespace CashFlow.Comunication.Responses;
+public class ResponseRegisterExpenseJson
 {
+    public string Title { get; set; } = string.Empty; 
 }
