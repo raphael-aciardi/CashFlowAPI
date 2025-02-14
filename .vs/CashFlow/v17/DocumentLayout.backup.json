@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA3D0D25-62B2-4DBD-B3CF-B5418F40FF91}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\users\\compu\\source\\repos\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{626A6288-F9D0-4F15-8875-3D6E1D66887C}|src\\CashFlow.Comunication\\CashFlow.Comunication.csproj|c:\\users\\user\\desktop\\nova pasta (2)\\cashflowapi\\src\\cashflow.comunication\\requests\\requestregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626A6288-F9D0-4F15-8875-3D6E1D66887C}|src\\CashFlow.Comunication\\CashFlow.Comunication.csproj|solutionrelative:src\\cashflow.comunication\\requests\\requestregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626A6288-F9D0-4F15-8875-3D6E1D66887C}|src\\CashFlow.Comunication\\CashFlow.Comunication.csproj|c:\\users\\user\\desktop\\nova pasta (2)\\cashflowapi\\src\\cashflow.comunication\\responses\\responseregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626A6288-F9D0-4F15-8875-3D6E1D66887C}|src\\CashFlow.Comunication\\CashFlow.Comunication.csproj|solutionrelative:src\\cashflow.comunication\\responses\\responseregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3D0D25-62B2-4DBD-B3CF-B5418F40FF91}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\users\\user\\desktop\\nova pasta (2)\\cashflowapi\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3D0D25-62B2-4DBD-B3CF-B5418F40FF91}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4147C4F3-E5B3-458A-BB29-E74FF897AC58}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\users\\user\\desktop\\nova pasta (2)\\cashflowapi\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4147C4F3-E5B3-458A-BB29-E74FF897AC58}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RequestRegisterExpenseJson.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Comunication\\Requests\\RequestRegisterExpenseJson.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Comunication\\Requests\\RequestRegisterExpenseJson.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Comunication\\Requests\\RequestRegisterExpenseJson.cs",
+              "RelativeToolTip": "src\\CashFlow.Comunication\\Requests\\RequestRegisterExpenseJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:55:15.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseRegisterExpenseJson.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "RelativeToolTip": "src\\CashFlow.Comunication\\Responses\\ResponseRegisterExpenseJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:08:53.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterExpenseUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:06:38.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ExpensesController.cs",
-              "DocumentMoniker": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
-              "ToolTip": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nova pasta (2)\\CashFlowAPI\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
               "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T18:45:48.31Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
