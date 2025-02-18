@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Filter\**" />
+    <Content Remove="Filter\**" />
+    <EmbeddedResource Remove="Filter\**" />
+    <None Remove="Filter\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
 
