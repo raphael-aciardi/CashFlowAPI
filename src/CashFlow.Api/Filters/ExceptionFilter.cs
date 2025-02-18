@@ -1,4 +1,5 @@
 ﻿using CashFlow.Comunication.Responses;
+using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
 using CashFlow.Exception.ExeptionsBase;
 using Microsoft.AspNetCore.Mvc;
@@ -38,7 +39,7 @@ public class ExceptionFilter : IExceptionFilter
 
     private void ThrowUnknowError(ExceptionContext context)
     {
-        var errorResponse = new ResponseErrorJson("unknown error");
+        var errorResponse = new ResponseErrorJson(ResourceErrorMessages.UNKNOWN_ERRO);
 
         context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
         context.Result = new ObjectResult(errorResponse);
