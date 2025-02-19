@@ -1,8 +1,6 @@
-﻿using CashFlow.Comunication.Enums;
-using CashFlow.Comunication.Requests;
+﻿using CashFlow.Comunication.Requests;
 using CashFlow.Comunication.Responses;
 using CashFlow.Exception.ExceptionsBase;
-using CashFlow.Exception.ExeptionsBase;
 
 namespace CashFlow.Application.UseCases.Expenses.Register;
 public class RegisterExpenseUseCase
