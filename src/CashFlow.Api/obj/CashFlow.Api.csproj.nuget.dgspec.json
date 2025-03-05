@@ -127,6 +127,9 @@
               },
               "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
                 "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              },
+              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -418,6 +421,10 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.2, )"
             },
