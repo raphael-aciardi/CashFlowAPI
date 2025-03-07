@@ -1,10 +1,12 @@
 using CashFlow.Api.Filters;
 using CashFlow.Api.Middleware;
+using CashFlow.Application;
 using CashFlow.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddInfrastructore();
+builder.Services.AddInfrastructore(builder.Configuration);
+builder.Services.AddApplication();
 
 builder.Services.AddControllers();
 
