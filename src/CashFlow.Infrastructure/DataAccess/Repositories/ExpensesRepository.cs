@@ -11,9 +11,9 @@ internal class ExpensesRepository : IExpensesRepository
     {
         _context = context;
     }
-    public void Add(Expense expense)
+    public async Task Add(Expense expense)
     {
 
-        _context.Expenses.Add(expense);
+       await  _context.Expenses.AddAsync(expense);
     }
 }
