@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "D+L9I5RxBj8=",
+  "dgSpecHash": "AeDxPgv4TDg=",
   "success": true,
   "projectFilePath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\compu\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\compu\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\compu\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.2\\microsoft.data.sqlite.core.9.0.2.nupkg.sha512",
     "C:\\Users\\compu\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
