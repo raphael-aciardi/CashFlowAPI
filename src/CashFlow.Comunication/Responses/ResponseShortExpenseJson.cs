@@ -1,4 +1,4 @@
-﻿namespace CashFlow.Communication.Responses;
+﻿namespace CashFlow.Comunication.Responses;
 public class ResponseShortExpenseJson
 {
     public long Id { get; set; }

@@ -1,4 +1,4 @@
-﻿using CashFlow.Communication.Responss;
+﻿using CashFlow.Comunication.Responses;
 
 namespace CashFlow.Application.UseCases.Expenses.GetAll;
 public interface IGetAllExpenseUseCase
