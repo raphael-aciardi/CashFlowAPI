@@ -1,9 +1,7 @@
 ﻿using CashFlow.Comunication.Responses;
 
-namespace CashFlow.Application.UseCases.Expenses.GetById
+namespace CashFlow.Application.UseCases.Expenses.GetById;
+public interface IGetExpenseByIdUseCase
 {
-    public interface IGetExpenseByIdUseCase
-    {
-        Task<ResponseExpenseJson> Execute(long id);
-    }
+    Task<ResponseExpenseJson> Execute(long id);
 }
