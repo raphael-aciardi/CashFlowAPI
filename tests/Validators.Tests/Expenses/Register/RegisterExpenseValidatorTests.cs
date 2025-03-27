@@ -1,4 +1,5 @@
-﻿using CashFlow.Application.UseCases.Expenses.Register;
+﻿using CashFlow.Application.UseCases.Expenses;
+using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Comunication.Enums;
 using CashFlow.Exception;
 using CommonTestUtilities.Requests;
@@ -12,7 +13,7 @@ public class RegisterExpenseValidatorTests
         //Coments to remember the structure in the next tests
     {
         //Arrange
-        var Validator = new RegisterExpenseValidator();
+        var Validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
 
         //Act
@@ -29,7 +30,7 @@ public class RegisterExpenseValidatorTests
     public void ErrorTitleEmpty(string? title)
     {
         //Arrange
-        var Validator = new RegisterExpenseValidator();
+        var Validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Title = title;
         //Act
@@ -45,7 +46,7 @@ public class RegisterExpenseValidatorTests
     public void ErrorDateFuture()
     {
         //Arrange
-        var Validator = new RegisterExpenseValidator();
+        var Validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Date = DateTime.UtcNow.AddDays(1);
         //Act
@@ -60,7 +61,7 @@ public class RegisterExpenseValidatorTests
     public void ErrorPaymentTypeInvalid()
     {
         //Arrange
-        var Validator = new RegisterExpenseValidator();
+        var Validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.PaymentType = (PaymentType)700;
         //Act
@@ -79,7 +80,7 @@ public class RegisterExpenseValidatorTests
     public void ErrorAmountInvalid(decimal amount)
     {
         //Arrange
-        var Validator = new RegisterExpenseValidator();
+        var Validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Amount = amount;
         //Act
