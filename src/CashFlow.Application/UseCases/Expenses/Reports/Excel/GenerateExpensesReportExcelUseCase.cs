@@ -23,7 +23,7 @@ class GenerateExpensesReportExcelUseCase: IGenerateExpensesReportExcelUseCase
             return [];
         }
 
-        var workbook = new XLWorkbook();
+        using var workbook = new XLWorkbook();
 
         //Archive
         workbook.Author = "Raphael";
