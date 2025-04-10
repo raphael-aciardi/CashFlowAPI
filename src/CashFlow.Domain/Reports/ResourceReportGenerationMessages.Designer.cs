@@ -70,11 +70,38 @@ namespace CashFlow.Domain.Reports {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bank transfer.
+        /// </summary>
+        public static string BANKTRANSFER {
+            get {
+                return ResourceManager.GetString("BANKTRANSFER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Credit card.
+        /// </summary>
+        public static string CREDITCARD {
+            get {
+                return ResourceManager.GetString("CREDITCARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string DATE {
             get {
                 return ResourceManager.GetString("DATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Debit card.
+        /// </summary>
+        public static string DEBITCARD {
+            get {
+                return ResourceManager.GetString("DEBITCARD", resourceCulture);
             }
         }
         
@@ -88,7 +115,25 @@ namespace CashFlow.Domain.Reports {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Payment Type.
+        ///   Looks up a localized string similar to Expenses for.
+        /// </summary>
+        public static string EXPENSES_FOR {
+            get {
+                return ResourceManager.GetString("EXPENSES_FOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Money.
+        /// </summary>
+        public static string MONEY {
+            get {
+                return ResourceManager.GetString("MONEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment type.
         /// </summary>
         public static string PAYMENT_TYPE {
             get {
@@ -102,6 +147,15 @@ namespace CashFlow.Domain.Reports {
         public static string TITLE {
             get {
                 return ResourceManager.GetString("TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total spent in  {0}.
+        /// </summary>
+        public static string TOTAL_SPENT_IN {
+            get {
+                return ResourceManager.GetString("TOTAL_SPENT_IN", resourceCulture);
             }
         }
     }

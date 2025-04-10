@@ -126,10 +126,28 @@
   <data name="DESCRIPTION" xml:space="preserve">
     <value>Description</value>
   </data>
+  <data name="MONEY" xml:space="preserve">
+    <value>Money</value>
+  </data>
   <data name="PAYMENT_TYPE" xml:space="preserve">
-    <value>Payment Type</value>
+    <value>Payment type</value>
+  </data>
+  <data name="CREDITCARD" xml:space="preserve">
+    <value>Credit card</value>
   </data>
   <data name="TITLE" xml:space="preserve">
     <value>Title</value>
+  </data>
+  <data name="DEBITCARD" xml:space="preserve">
+    <value>Debit card</value>
+  </data>
+  <data name="BANKTRANSFER" xml:space="preserve">
+    <value>Bank transfer</value>
+  </data>
+  <data name="EXPENSES_FOR" xml:space="preserve">
+    <value>Expenses for</value>
+  </data>
+  <data name="TOTAL_SPENT_IN" xml:space="preserve">
+    <value>Total spent in  {0}</value>
   </data>
 </root>
