@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {}
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
         "projectName": "CashFlow.Comunication",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

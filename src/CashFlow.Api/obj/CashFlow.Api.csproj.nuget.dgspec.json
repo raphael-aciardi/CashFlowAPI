@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj": {}
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Api\\CashFlow.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Api\\CashFlow.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Api\\CashFlow.Api.csproj",
         "projectName": "CashFlow.Api",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Api\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,17 +32,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Application\\CashFlow.Application.csproj"
               },
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj"
               },
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
               },
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -63,9 +63,15 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
@@ -87,24 +93,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Application\\CashFlow.Application.csproj",
         "projectName": "CashFlow.Application",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Application\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,17 +125,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj"
               },
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
               },
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
               },
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -164,7 +170,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
             },
             "PDFsharp-MigraDoc": {
               "target": "Package",
@@ -187,24 +193,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
         "projectName": "CashFlow.Comunication",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Comunication\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\CashFlow.Comunication.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Comunication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -252,24 +258,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
         "projectName": "CashFlow.Domain",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -317,24 +323,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
         "projectName": "CashFlow.Exception",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -382,24 +388,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
+    "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
         "projectName": "CashFlow.Infrastructure",
-        "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DoQR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DoQR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -414,8 +420,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\compu\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+              "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+                "projectPath": "C:\\Users\\DoQR\\source\\repos\\raphael-aciardi\\CashFlowAPI\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
               }
             }
           }
@@ -436,19 +442,31 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.9.0, )"
             }
           },
           "imports": [
@@ -467,7 +485,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
